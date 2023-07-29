@@ -1,9 +1,9 @@
 import React from 'react';
 
-export function Contact() {
+export function Projects() {
     return (
         <div>
-            <p>Contact!</p>
+            <p>projects</p>
         </div>
     );
-}
+};

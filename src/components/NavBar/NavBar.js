@@ -18,4 +18,4 @@ export function NavBar() {
             </ul>
         </nav>
     );
-};
+}
