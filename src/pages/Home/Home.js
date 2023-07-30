@@ -8,7 +8,7 @@ export function Home() {
     const [isVisible, setIsVisible] = useState(false);
     const navigate = useNavigate();
 
-    const handleClick = (e) => {
+    const handleClick = () => {
             setIsVisible(!isVisible);
 
             setTimeout(() => {
@@ -17,7 +17,7 @@ export function Home() {
     };
 
     return (
-            <section className="flex flex-col gap-2 text-gray-300">
+            <section className="flex flex-col gap-2">
 
                 <article className="introduction-box flex justify-center">
                     <div className="relative">
@@ -27,9 +27,7 @@ export function Home() {
                             </div>
                     </div>
                 </article>
-                <article className="projects-info">
-                    <p>projects info</p>
-                </article>
+
             </section>
     );
 }

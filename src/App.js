@@ -8,21 +8,22 @@ import {Route, Routes} from "react-router-dom";
 
 function App() {
     return(
-        <section className="flex flex-row w-100 justify-evenly border-2">
-            <div className="flex flex-col align-middle">
-                    <header>
-                        <NavBar/>
-                    </header>
-
-                    <main>
-                        <Routes>
-                            <Route path="/" element={<Home />}/>
-                            <Route path="/Contact" element={<Contact />}/>
-                            <Route path="/Projects" element={<Projects />}/>
-                        </Routes>
-                    </main>
-            </div>
-        </section>
+        <>
+            <section className="flex flex-row justify-center">
+                <header className="flex flex-col">
+                            <NavBar/>
+                </header>
+            </section>
+            <section className="flex flex-row justify-center">
+                <main className="flex flex-col align-middle">
+                            <Routes>
+                                <Route path="/" element={<Home />}/>
+                                <Route path="/Contact" element={<Contact />}/>
+                                <Route path="/Projects" element={<Projects />}/>
+                            </Routes>
+                </main>
+            </section>
+        </>
     )
 }
 
