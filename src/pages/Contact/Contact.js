@@ -27,7 +27,7 @@ export function Contact() {
 
                     <button
                         type={"submit"}
-                    > <p>Versturen</p>
+                    > <p>Versturen.</p>
                     </button>
                 </fieldset>
             </form>
