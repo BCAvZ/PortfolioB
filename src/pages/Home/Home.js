@@ -17,7 +17,7 @@ export function Home() {
     };
 
     return (
-            <section className="flex flex-col gap-2">
+            <section className="flex flex-col gap-2 ">
 
                 <article className="introduction-box flex justify-center">
                     <div className="relative">
