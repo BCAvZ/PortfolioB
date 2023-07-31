@@ -28,7 +28,7 @@ export function NavBar() {
                 </li>
 
                 <li>
-                    <NavLink to="/Contact" className={isActive === "Contact" ? "underline" : "italic"}>
+                    <NavLink to="/Contact" className={isActive === "/Contact" ? "underline" : "italic"}>
                         <p>Contact</p>
                     </NavLink>
                 </li>
