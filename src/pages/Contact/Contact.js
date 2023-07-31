@@ -9,9 +9,7 @@ export function Contact() {
     return (
         <section>
             <h1>Contact!</h1>
-            <form onSubmit={handleSubmit(e)}>
-
-
+            <form onSubmit={handleSubmit()}>
 
                 <p>Contact!</p>
             </form>
