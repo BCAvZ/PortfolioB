@@ -30,7 +30,7 @@ export function Projects() {
                  title="Portfolio Bart"
                  link=""
                  picture={portfolio}
-                 description="is een portfolio van een jonge enthousiaste Frontend developer, ontwikkeld via React, gestyled met behulp van Tailwind CSS en navigeerbaar via React-Router Dom. Het contactformulier op de Contact pagina werkt via React-Hook-Form en mailt direct naar het mailadres van de developer."
+                 description="is een portfolio van een jonge enthousiaste Frontend developer, ontwikkeld via React, gestyled met behulp van Tailwind CSS en navigeerbaar via React-Router Dom. Het contactformulier op de Contact pagina werkt via React-Hook-Form en mailt direct naar het mailadres van de developer via mailjs."
                 >
                 </ProjectInfo>
             }
