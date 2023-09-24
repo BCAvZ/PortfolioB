@@ -8,7 +8,7 @@ import {Route, Routes} from "react-router-dom";
 
 function App() {
     return(
-        <>
+        <div>
             <section className="flex flex-row justify-center">
                 <header className="flex flex-col">
                             <NavBar/>
@@ -23,7 +23,7 @@ function App() {
                             </Routes>
                 </main>
             </section>
-        </>
+        </div>
     )
 }
 

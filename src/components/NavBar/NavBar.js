@@ -1,5 +1,8 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useState, useContext} from 'react';
 import {NavLink, useLocation} from 'react-router-dom';
+import {Context} from "../../context/context";
+import dutchFlag from "../../assets/pictures/92240_netherlands_icon.png"
+import englishFlag from "../../assets/pictures/16014_england_english_flag_great britain_inghilterra_icon.png"
 
 export function NavBar() {
 
@@ -11,6 +14,7 @@ export function NavBar() {
         setIsActive(currentPathInString);
     },[location])
 
+    const {dutch, setLanguage } = useContext(Context);
 
     return (
         <nav>
@@ -31,6 +35,17 @@ export function NavBar() {
                     <NavLink to="/Contact" className={isActive === "/Contact" ? "underline" : "italic"}>
                         <p>Contact</p>
                     </NavLink>
+                </li>
+
+                <li>
+                    { dutch ?
+                        <div>
+                            <img src={dutchFlag} alt="dutch flag" onClick={setLanguage} className={"cursor-pointer"}/>
+                        </div>
+                        :
+                        <div>
+                            <img src ={englishFlag} alt="english flag" onClick={setLanguage} className={"cursor-pointer"}/>
+                        </div>    }
                 </li>
             </ul>
         </nav>
