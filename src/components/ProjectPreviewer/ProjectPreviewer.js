@@ -1,6 +1,9 @@
 import React from 'react';
+import MixB from '../../assets/pictures/Preview_image_MixB.PNG'
+import portfolio from '../../assets/pictures/portfolio_background_Dutch.png'
 
-export function ProjectInfo({selectedProject, setSelectedProject, title, link, picture, description}) {
+
+export function ProjectPreviewer({selectedProject, setSelectedProject, title, link, picture, description}) {
 
     return (
             <article className="bg-amber-100 rounded-2xl p-2 grow-0">
@@ -19,4 +22,4 @@ export function ProjectInfo({selectedProject, setSelectedProject, title, link, p
                 </p>
             </article>
     );
-};
+}

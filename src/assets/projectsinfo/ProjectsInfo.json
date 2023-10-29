@@ -1,0 +1,21 @@
+[
+  {
+    "title":"MixB!",
+    "link":"https://deft-narwhal-4151f0.netlify.app",
+    "picture": "MixB",
+    "description":"is een cocktail recepten database, ontwikkeld via React, gestyled met gebruik van CSS-modules en navigeerbaar door React-Router-Dom. De recepten zelf worden opgevraagd via GET requests met behulp van Axios naar de CocktailDb API en de inlog- en accountpagina werken dankzij React-Hook-Form."
+  },
+
+  {
+    "title": "BFlix",
+    "link": "",
+    "picture":"portfolio",
+    "description":"is een applicatie gemaakt als technische opdracht voor een sollicitatie als Frontend Developer bij Abn Amro N.V. waar ik uiteindelijke tweede ben geworden. Deze applicatie is gemaakt met: React, React-Router-Dom, Axios en reguliere CSS."
+  },
+  {
+    "title":"Portfolio Bart",
+    "link":"",
+    "picture":"portfolio",
+    "description":"het plaatje van een jonge enthousiaste Frontend developer, ontwikkeld via React, gestyled met behulp van Tailwind CSS en navigeerbaar via React-Router Dom. Het contactformulier op de Contact pagina werkt via React-Hook-Form en mailt direct naar het mailadres van de developer via mailJS zonder backend."
+  }
+]

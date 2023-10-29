@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import MixB from '../../assets/pictures/Preview_image_MixB.PNG'
 import portfolio from '../../assets/pictures/portfolio_background_Dutch.png'
-import {ProjectInfo} from "../../components/ProjectInfo/ProjectInfo";
+import {ProjectPreviewer} from "../../components/ProjectPreviewer/ProjectPreviewer";
 
 
 export function Projects() {
@@ -16,15 +16,15 @@ export function Projects() {
                 </p>
             </article>
 
-            {selectedProject <= 1 ? <ProjectInfo
+            {selectedProject <= 1 ? <ProjectPreviewer
                 selectedProject={selectedProject}
                 setSelectedProject={setSelectedProject}
                 title="MixB!"
                 link="https://deft-narwhal-4151f0.netlify.app"
                 picture={MixB}
                 description="is een cocktail recepten database, ontwikkeld via React, gestyled met gebruik van CSS-modules en navigeerbaar door React-Router-Dom. De recepten zelf worden opgevraagd via GET requests met behulp van Axios naar de CocktailDb API en de inlog- en accountpagina werken dankzij React-Hook-Form."
-            ></ProjectInfo> :
-                <ProjectInfo
+            ></ProjectPreviewer> :
+                <ProjectPreviewer
                  selectedProject={selectedProject}
                  setSelectedProject={setSelectedProject}
                  title="Portfolio Bart"
@@ -32,7 +32,7 @@ export function Projects() {
                  picture={portfolio}
                  description="is een portfolio van een jonge enthousiaste Frontend developer, ontwikkeld via React, gestyled met behulp van Tailwind CSS en navigeerbaar via React-Router Dom. Het contactformulier op de Contact pagina werkt via React-Hook-Form en mailt direct naar het mailadres van de developer via mailjs."
                 >
-                </ProjectInfo>
+                </ProjectPreviewer>
             }
         </section>
     );
