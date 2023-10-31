@@ -8,7 +8,6 @@ function ContextProvider({ children }) {
 
     function setLanguage() {
         setDutch(!dutch);
-        console.log(dutch)
     }
 
     const contextValue = {
