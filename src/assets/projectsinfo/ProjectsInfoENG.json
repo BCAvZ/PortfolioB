@@ -1,0 +1,21 @@
+[
+  {
+    "title":"MixB!",
+    "link":"https://deft-narwhal-4151f0.netlify.app",
+    "picture": "MixB.PNG",
+    "description":"is a cocktail recipe database, developed using the framework React, styled with CSS modules and navigation is possible by React-Router-Dom.  The recipes are retrieved via GET request using Axios from the CocktailDb API and the inlog- and accountpage works by React-Hook-Form."
+  },
+
+  {
+    "title": "BFlix",
+    "link": "",
+    "picture":"portfolio_background_Dutch",
+    "description":"is an application made as a technical assignment as part of a job application as Frontend Developer with Abn Amro N.V.. This is the original version made with: React, React-RouterDom, Axios and regular CSS. I'm proud of the flexibility of the components"
+  },
+  {
+    "title":"Portfolio Bart",
+    "link":"",
+    "picture":"portfolio",
+    "description":"is where the projects made by this young developer can easily be found. Made in React, styled with Tailwind CSS and navigation is handled by React-Router-Dom. The contact form is handled by MailJS as this is a purely frontend application. "
+  }
+]

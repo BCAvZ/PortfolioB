@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {ProjectPreviewer} from "../../components/ProjectPreviewer/ProjectPreviewer";
-import ProjectsInfo from "../../assets/projectsinfo/ProjectsInfo.json"
+import ProjectsInfoNL from "../../assets/projectsinfo/ProjectsInfoNL.json"
 
 export function Projects() {
 
@@ -16,10 +16,10 @@ export function Projects() {
             <ProjectPreviewer
                 selectedProject={selectedProject}
                 setSelectedProject={setSelectedProject}
-                title={ProjectsInfo[selectedProject].title}
-                link={ProjectsInfo[selectedProject].link}
-                picture={ProjectsInfo[selectedProject].picture}
-                description={ProjectsInfo[selectedProject].description}
+                title={ProjectsInfoNL[selectedProject].title}
+                link={ProjectsInfoNL[selectedProject].link}
+                picture={ProjectsInfoNL[selectedProject].picture}
+                description={ProjectsInfoNL[selectedProject].description}
             ></ProjectPreviewer>
         </section>
     );
